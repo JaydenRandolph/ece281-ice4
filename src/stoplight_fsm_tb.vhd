@@ -137,6 +137,9 @@ begin
             assert w_stoplight = "100" report "skipped red after yellow" severity failure;
         wait for k_clk_period;
             assert w_stoplight = "001" report "should be green when car present" severity failure;
+          
+        --makes a pretty graph  
+        assert true = false report "test complete" severity failure;
 	
 		wait;
 	end process;
