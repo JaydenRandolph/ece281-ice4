@@ -139,7 +139,7 @@ begin
             assert w_stoplight = "001" report "should be green when car present" severity failure;
           
         --makes a pretty graph  
-        assert true = false report "test complete" severity failure;
+        --assert true = false report "test complete" severity failure;
 	
 		wait;
 	end process;
